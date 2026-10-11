@@ -1,0 +1,64 @@
+Item ID,Season ID,Spirit ID,Spirit Name,Tier,Node Index,Item Type,Item Name,Price,Currency,Points,Season Pass
+S29_BG,29,,,,,Background,background,,,,FALSE
+S29_A_01,29,A,Carnival Guide,0,1,Necklace,season_icon,0,free,0,TRUE
+S29_A_02,29,A,Carnival Guide,0,2,Hair,,2,s_heart,0,TRUE
+S29_A_11,29,A,Carnival Guide,1,1,Cape,,2,s_heart,0,TRUE
+S29_A_12,29,A,Carnival Guide,1,2,Special,,0,free,0,FALSE
+S29_A_13,29,A,Carnival Guide,1,3,Special,,0,free,0,FALSE
+S29_A_21,29,A,Carnival Guide,2,1,Special,,0,free,0,FALSE
+S29_A_22,29,A,Carnival Guide,2,2,Heart,,0,free,0,FALSE
+S29_A_31,29,A,Carnival Guide,3,1,Small Prop,,0,free,0,FALSE
+S29_A_32,29,A,Carnival Guide,3,2,Small Prop,,0,free,0,FALSE
+S29_A_41,29,A,Carnival Guide,4,1,Large Prop,,26,candle,0,FALSE
+S29_A_42,29,A,Carnival Guide,4,2,Heart,,0,free,0,FALSE
+S29_B_01,29,B,Carnival Juggler,0,1,Emote 1,,0,free,20,FALSE
+S29_B_02,29,B,Carnival Juggler,0,2,Blessing,,4,s_candle,20,FALSE
+S29_B_CO,29,B,Carnival Juggler,0,3,Companion,,0,free,0,FALSE
+S29_B_11,29,B,Carnival Juggler,1,1,Emote 2,,0,free,0,TRUE
+S29_B_12,29,B,Carnival Juggler,1,2,Mask,,19,s_candle,30,FALSE
+S29_B_13,29,B,Carnival Juggler,1,3,Blessing,,7,s_candle,30,FALSE
+S29_B_21,29,B,Carnival Juggler,2,1,Necklace,,0,free,0,TRUE
+S29_B_22,29,B,Carnival Juggler,2,2,Emote 3,,24,s_candle,40,FALSE
+S29_B_23,29,B,Carnival Juggler,2,3,Blessing,,10,s_candle,40,FALSE
+S29_B_31,29,B,Carnival Juggler,3,1,Emote 4,,0,free,0,TRUE
+S29_B_32,29,B,Carnival Juggler,3,2,Dye,dye_black,0,free,0,TRUE
+S29_B_33,29,B,Carnival Juggler,3,3,Clothes,,28,s_candle,100,FALSE
+S29_B_41,29,B,Carnival Juggler,4,1,Season Heart,,3,s_candle,0,TRUE
+S29_C_01,29,C,Carnival Athletic Dancer,0,1,Emote 1,,0,free,20,FALSE
+S29_C_02,29,C,Carnival Athletic Dancer,0,2,Blessing,,4,s_candle,20,FALSE
+S29_C_CO,29,C,Carnival Athletic Dancer,0,3,Companion,,0,free,0,FALSE
+S29_C_11,29,C,Carnival Athletic Dancer,1,1,Emote 2,,0,free,0,TRUE
+S29_C_12,29,C,Carnival Athletic Dancer,1,2,Mask,,19,s_candle,30,FALSE
+S29_C_13,29,C,Carnival Athletic Dancer,1,3,Blessing,,7,s_candle,30,FALSE
+S29_C_21,29,C,Carnival Athletic Dancer,2,1,Cape,,0,free,0,TRUE
+S29_C_22,29,C,Carnival Athletic Dancer,2,2,Emote 3,,24,s_candle,40,FALSE
+S29_C_23,29,C,Carnival Athletic Dancer,2,3,Dye,dye_white,12,s_candle,40,FALSE
+S29_C_31,29,C,Carnival Athletic Dancer,3,1,Emote 4,,0,free,0,TRUE
+S29_C_32,29,C,Carnival Athletic Dancer,3,2,Outfit,,28,s_candle,100,FALSE
+S29_C_41,29,C,Carnival Athletic Dancer,4,1,Season Heart,,3,s_candle,0,TRUE
+S29_D_01,29,D,Carnival Puzzle Director,0,1,Emote 1,,0,free,20,FALSE
+S29_D_02,29,D,Carnival Puzzle Director,0,2,Blessing,,4,s_candle,20,FALSE
+S29_D_CO,29,D,Carnival Puzzle Director,0,3,Companion,,0,free,0,FALSE
+S29_D_11,29,D,Carnival Puzzle Director,1,1,Emote 2,,0,free,0,TRUE
+S29_D_12,29,D,Carnival Puzzle Director,1,2,Music,,19,s_candle,30,FALSE
+S29_D_13,29,D,Carnival Puzzle Director,1,3,Blessing,,7,s_candle,30,FALSE
+S29_D_21,29,D,Carnival Puzzle Director,2,1,Clothes,,0,free,0,TRUE
+S29_D_22,29,D,Carnival Puzzle Director,2,2,Emote 3,,24,s_candle,40,FALSE
+S29_D_23,29,D,Carnival Puzzle Director,2,3,Blessing,,10,s_candle,40,FALSE
+S29_D_31,29,D,Carnival Puzzle Director,3,1,Emote 4,,0,free,0,TRUE
+S29_D_32,29,D,Carnival Puzzle Director,3,2,Hair,,0,free,0,TRUE
+S29_D_33,29,D,Carnival Puzzle Director,3,3,Hair Acc,,28,s_candle,100,FALSE
+S29_D_41,29,D,Carnival Puzzle Director,4,1,Season Heart,,3,s_candle,0,FALSE
+S29_E_01,29,E,Carnival Stunt Actor,0,1,Emote 1,,0,free,20,FALSE
+S29_E_02,29,E,Carnival Stunt Actor,0,2,Blessing,,4,s_candle,20,FALSE
+S29_E_CO,29,E,Carnival Stunt Actor,0,3,Companion,,0,free,0,FALSE
+S29_E_11,29,E,Carnival Stunt Actor,1,1,Emote 2,,0,free,0,TRUE
+S29_E_12,29,E,Carnival Stunt Actor,1,2,Cape,,19,s_candle,30,FALSE
+S29_E_13,29,E,Carnival Stunt Actor,1,3,Blessing,,7,s_candle,30,FALSE
+S29_E_21,29,E,Carnival Stunt Actor,2,1,Outfit,,0,free,0,TRUE
+S29_E_22,29,E,Carnival Stunt Actor,2,2,Emote 3,,24,s_candle,40,FALSE
+S29_E_23,29,E,Carnival Stunt Actor,2,3,Blessing,,10,s_candle,40,FALSE
+S29_E_31,29,E,Carnival Stunt Actor,3,1,Emote 4,,0,free,0,TRUE
+S29_E_32,29,E,Carnival Stunt Actor,3,2,Hair Acc,,0,free,0,TRUE
+S29_E_33,29,E,Carnival Stunt Actor,3,3,Hair,,28,s_candle,100,FALSE
+S29_E_4,29,E,Carnival Stunt Actor,4,,Season Heart,,3,s_candle,0,TRUE

@@ -1,0 +1,66 @@
+Item ID,Season ID,Spirit ID,Spirit Name,Tier,Node Index,Item Type,Item Name,Price,Currency,Points,Season Pass
+S28_BG,28,,,,,Background,background,,,,FALSE
+S28_A_01,28,A,Lightmending Guide,0,1,Necklace,season_icon,0,free,0,TRUE
+S28_A_02,28,A,Lightmending Guide,0,2,Mask,,1,s_heart,0,TRUE
+S28_A_03,28,A,Lightmending Guide,0,3,Heart,,0,free,0,FALSE
+S28_A_11,28,A,Lightmending Guide,1,1,Hair,,1,s_heart,0,TRUE
+S28_A_12,28,A,Lightmending Guide,1,2,Heart,,0,free,0,FALSE
+S28_A_13,28,A,Lightmending Guide,1,3,Heart,,0,free,0,FALSE
+S28_A_21,28,A,Lightmending Guide,2,1,Cape,,2,s_heart,0,TRUE
+S28_A_22,28,A,Lightmending Guide,2,2,Heart,,0,free,0,FALSE
+S28_A_23,28,A,Lightmending Guide,2,3,Heart,,0,free,0,FALSE
+S28_A_31,28,A,Lightmending Guide,3,1,Heart,,0,free,0,FALSE
+S28_A_32,28,A,Lightmending Guide,3,2,Heart,,0,free,0,FALSE
+S28_B_01,28,B,Lightmending Pioneer,0,1,Emote 1,,0,free,20,FALSE
+S28_B_02,28,B,Lightmending Pioneer,0,2,Blessing,,4,s_candle,20,FALSE
+S28_B_CO,28,B,Lightmending Pioneer,0,3,Companion,,0,free,0,FALSE
+S28_B_11,28,B,Lightmending Pioneer,1,1,Emote 2,,0,free,0,TRUE
+S28_B_12,28,B,Lightmending Pioneer,1,2,Blessing,,6,s_candle,60,FALSE
+S28_B_21,28,B,Lightmending Pioneer,2,1,Mask,,0,free,0,TRUE
+S28_B_22,28,B,Lightmending Pioneer,2,2,Emote 3,,28,s_candle,40,FALSE
+S28_B_23,28,B,Lightmending Pioneer,2,3,Hair,,30,s_candle,40,FALSE
+S28_B_31,28,B,Lightmending Pioneer,3,1,Emote 4,,0,free,0,TRUE
+S28_B_32,28,B,Lightmending Pioneer,3,2,Outfit,,0,free,0,TRUE
+S28_B_33,28,B,Lightmending Pioneer,3,3,Dye,dye_blue,15,s_candle,50,FALSE
+S28_B_34,28,B,Lightmending Pioneer,3,4,Moment,,0,free,50,FALSE
+S28_B_41,28,B,Lightmending Pioneer,4,1,Season Heart,,3,s_candle,0,TRUE
+S28_C_01,28,C,Lightmending Champion,0,1,Emote 1,,0,free,20,FALSE
+S28_C_02,28,C,Lightmending Champion,0,2,Blessing,,4,s_candle,20,FALSE
+S28_C_CO,28,C,Lightmending Champion,0,3,Companion,,0,free,0,FALSE
+S28_C_11,28,C,Lightmending Champion,1,1,Emote 2,,0,free,0,TRUE
+S28_C_12,28,C,Lightmending Champion,1,2,Mask,,25,s_candle,30,FALSE
+S28_C_13,28,C,Lightmending Champion,1,3,Blessing,,6,s_candle,30,FALSE
+S28_C_21,28,C,Lightmending Champion,2,1,Head Acc,,0,free,0,TRUE
+S28_C_22,28,C,Lightmending Champion,2,2,Emote 3,,28,s_candle,40,FALSE
+S28_C_23,28,C,Lightmending Champion,2,3,Blessing,,9,s_candle,40,FALSE
+S28_C_31,28,C,Lightmending Champion,3,1,Emote 4,,0,free,0,TRUE
+S28_C_32,28,C,Lightmending Champion,3,2,Outfit,,0,free,0,TRUE
+S28_C_33,28,C,Lightmending Champion,3,3,Dye,dye_white,15,s_candle,50,FALSE
+S28_C_34,28,C,Lightmending Champion,3,4,Moment,,,,50,FALSE
+S28_C_41,28,C,Lightmending Champion,4,1,Season Heart,,3,s_candle,0,TRUE
+S28_D_01,28,D,Lightmending Light Catcher,0,1,Emote 1,,0,free,20,FALSE
+S28_D_02,28,D,Lightmending Light Catcher,0,2,Mask,,19,s_candle,20,FALSE
+S28_D_CO,28,D,Lightmending Light Catcher,0,3,Companion,,0,free,0,FALSE
+S28_D_11,28,D,Lightmending Light Catcher,1,1,Emote 2,,0,free,0,TRUE
+S28_D_12,28,D,Lightmending Light Catcher,1,2,Blessing,,6,s_candle,60,FALSE
+S28_D_21,28,D,Lightmending Light Catcher,2,1,Hair Acc,,0,free,0,TRUE
+S28_D_22,28,D,Lightmending Light Catcher,2,2,Emote 3,,28,s_candle,40,FALSE
+S28_D_23,28,D,Lightmending Light Catcher,2,3,Dye,dye_cyan,11,s_candle,40,FALSE
+S28_D_31,28,D,Lightmending Light Catcher,3,1,Emote 4,,0,free,0,TRUE
+S28_D_32,28,D,Lightmending Light Catcher,3,2,Held Prop,,0,free,0,TRUE
+S28_D_33,28,D,Lightmending Light Catcher,3,3,Cape,,38,s_candle,50,FALSE
+S28_D_34,28,D,Lightmending Light Catcher,3,4,Moment,,,,50,FALSE
+S28_D_41,28,D,Lightmending Light Catcher,4,1,Season Heart,,3,s_candle,0,TRUE
+S28_E_01,28,E,Lightmending Scholar,0,1,Emote 1,,0,free,20,FALSE
+S28_E_02,28,E,Lightmending Scholar,0,2,Blessing,,4,s_candle,20,FALSE
+S28_E_CO,28,E,Lightmending Scholar,0,3,Companion,,0,free,0,FALSE
+S28_E_11,28,E,Lightmending Scholar,1,1,Emote 2,,0,free,0,TRUE
+S28_E_12,28,E,Lightmending Scholar,1,2,Hair,,25,s_candle,60,FALSE
+S28_E_21,28,E,Lightmending Scholar,2,1,Mask,,0,free,0,TRUE
+S28_E_22,28,E,Lightmending Scholar,2,2,Emote 3,,28,s_candle,40,FALSE
+S28_E_23,28,E,Lightmending Scholar,2,3,Cape,,30,s_candle,40,FALSE
+S28_E_31,28,E,Lightmending Scholar,3,1,Emote 4,,0,free,0,TRUE
+S28_E_32,28,E,Lightmending Scholar,3,2,Outfit,,0,free,0,TRUE
+S28_E_33,28,E,Lightmending Scholar,3,3,Blessing,,12,s_candle,50,FALSE
+S28_E_34,28,E,Lightmending Scholar,3,4,Moment,,,,50,FALSE
+S28_E_4,28,E,Lightmending Scholar,4,,Season Heart,,3,s_candle,0,TRUE
