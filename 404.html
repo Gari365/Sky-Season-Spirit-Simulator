@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loading SKY Season Spirit Simulator…</title>
+  </head>
+  <body>
+    <p>Loading season…</p>
+    <script>
+      (async () => {
+        const projectSegment = '/Sky-Season-Spirit-Simulator/';
+        const route = window.location.pathname;
+        const projectIndex = route.indexOf(projectSegment);
+        const basePath = projectIndex === -1
+          ? '/'
+          : `${route.slice(0, projectIndex)}${projectSegment}`;
+
+        try {
+          const response = await fetch(`${basePath}index.html`, { cache: 'no-store' });
+          if (!response.ok) throw new Error(`Unable to load the planner page (${response.status}).`);
+          const html = await response.text();
+          const withBase = html.replace(/<head([^>]*)>/i, `<head$1><base href="${basePath}">`);
+          document.open();
+          document.write(`<!doctype html>${withBase.replace(/^\s*<!doctype html>/i, '')}`);
+          document.close();
+        } catch (error) {
+          console.error('Unable to load the requested season page.', error);
+          document.body.textContent = `Unable to open this season page. ${error.message}`;
+        }
+      })();
+    </script>
+  </body>
+</html>
