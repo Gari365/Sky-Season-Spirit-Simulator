@@ -16,20 +16,20 @@ S27_B_02,27,B,Migrating Bellmaker,0,2,Call,,0,free,20,FALSE
 S27_B_CO,27,B,Migrating Bellmaker,0,3,Companion,,0,free,0,FALSE
 S27_B_11,27,B,Migrating Bellmaker,1,1,Dye,dye_blue,0,free,0,TRUE
 S27_B_12,27,B,Migrating Bellmaker,1,2,Hair,,23,s_candle,30,FALSE
-S27_B_13,27,B,Migrating Bellmaker,1,3,Blessing,,4,s_candle,30,FALSE
+S27_B_13,27,B,Migrating Bellmaker,1,3,Blessing,blessing,4,s_candle,30,FALSE
 S27_B_21,27,B,Migrating Bellmaker,2,1,Face Acc,,0,free,0,TRUE
-S27_B_22,27,B,Migrating Bellmaker,2,2,Blessing,,6,s_candle,40,FALSE
+S27_B_22,27,B,Migrating Bellmaker,2,2,Blessing,blessing,6,s_candle,40,FALSE
 S27_B_23,27,B,Migrating Bellmaker,2,3,Dye,dye_blue,9,s_candle,40,FALSE
-S27_B_31,27,B,Migrating Bellmaker,3,1,Blessing,,0,free,0,TRUE
+S27_B_31,27,B,Migrating Bellmaker,3,1,Blessing,blessing,0,free,0,TRUE
 S27_B_32,27,B,Migrating Bellmaker,3,2,Cape,,36,s_candle,50,FALSE
 S27_B_33,27,B,Migrating Bellmaker,3,3,Moment,,0,free,50,FALSE
 S27_B_41,27,B,Migrating Bellmaker,4,1,Season Heart,s_heart,3,s_candle,0,TRUE
 S27_C_01,27,C,Migrating Bird Whisperer,0,1,Emote 1,,0,free,20,FALSE
-S27_C_02,27,C,Migrating Bird Whisperer,0,2,Blessing,,2,s_candle,20,FALSE
+S27_C_02,27,C,Migrating Bird Whisperer,0,2,Blessing,blessing,2,s_candle,20,FALSE
 S27_C_CO,27,C,Migrating Bird Whisperer,0,3,Companion,,0,free,0,FALSE
 S27_C_11,27,C,Migrating Bird Whisperer,1,1,Emote 2,,0,free,0,TRUE
-S27_C_12,27,C,Migrating Bird Whisperer,1,2,Blessing,,4,s_candle,60,FALSE
-S27_C_21,27,C,Migrating Bird Whisperer,2,1,Blessing,,0,free,0,TRUE
+S27_C_12,27,C,Migrating Bird Whisperer,1,2,Blessing,blessing,4,s_candle,60,FALSE
+S27_C_21,27,C,Migrating Bird Whisperer,2,1,Blessing,blessing,0,free,0,TRUE
 S27_C_22,27,C,Migrating Bird Whisperer,2,2,Emote 3,,24,s_candle,40,FALSE
 S27_C_23,27,C,Migrating Bird Whisperer,2,3,Clothes,,30,s_candle,40,FALSE
 S27_C_31,27,C,Migrating Bird Whisperer,3,1,Emote 4,,0,free,0,TRUE
@@ -38,40 +38,40 @@ S27_C_33,27,C,Migrating Bird Whisperer,3,3,Dye,dye_blue,12,s_candle,50,FALSE
 S27_C_34,27,C,Migrating Bird Whisperer,3,4,Moment,,0,free,50,FALSE
 S27_C_41,27,C,Migrating Bird Whisperer,4,1,Season Heart,s_heart,3,s_candle,0,TRUE
 S27_D_01,27,D,Migrating Butterfly Charmer,0,1,Emote 1,,0,free,20,FALSE
-S27_D_02,27,D,Migrating Butterfly Charmer,0,2,Blessing,,2,s_candle,20,FALSE
+S27_D_02,27,D,Migrating Butterfly Charmer,0,2,Blessing,blessing,2,s_candle,20,FALSE
 S27_D_CO,27,D,Migrating Butterfly Charmer,0,3,Companion,,0,free,0,FALSE
 S27_D_11,27,D,Migrating Butterfly Charmer,1,1,Emote 2,,0,free,0,TRUE
 S27_D_12,27,D,Migrating Butterfly Charmer,1,2,Dye,dye_yellow,6,s_candle,60,FALSE
-S27_D_21,27,D,Migrating Butterfly Charmer,2,1,Blessing,,0,free,0,TRUE
+S27_D_21,27,D,Migrating Butterfly Charmer,2,1,Blessing,blessing,0,free,0,TRUE
 S27_D_22,27,D,Migrating Butterfly Charmer,2,2,Emote 3,,24,s_candle,40,FALSE
 S27_D_23,27,D,Migrating Butterfly Charmer,2,3,Cape,,30,s_candle,40,FALSE
 S27_D_31,27,D,Migrating Butterfly Charmer,3,1,Hair Acc,,0,free,0,TRUE
 S27_D_32,27,D,Migrating Butterfly Charmer,3,2,Emote 4,,0,free,0,TRUE
-S27_D_33,27,D,Migrating Butterfly Charmer,3,3,Blessing,,8,s_candle,50,FALSE
+S27_D_33,27,D,Migrating Butterfly Charmer,3,3,Blessing,blessing,8,s_candle,50,FALSE
 S27_D_34,27,D,Migrating Butterfly Charmer,3,4,Moment,,0,free,50,FALSE
 S27_D_41,27,D,Migrating Butterfly Charmer,4,1,Season Heart,s_heart,3,s_candle,0,TRUE
 S27_E_01,27,E,Migrating Jellyfish Whisperer,0,1,Emote 1,,0,free,20,FALSE
-S27_E_02,27,E,Migrating Jellyfish Whisperer,0,2,Blessing,,2,s_candle,20,FALSE
+S27_E_02,27,E,Migrating Jellyfish Whisperer,0,2,Blessing,blessing,2,s_candle,20,FALSE
 S27_E_CO,27,E,Migrating Jellyfish Whisperer,0,3,Companion,,0,free,0,FALSE
 S27_E_11,27,E,Migrating Jellyfish Whisperer,1,1,Emote 2,,0,free,0,TRUE
-S27_E_12,27,E,Migrating Jellyfish Whisperer,1,2,Blessing,,4,s_candle,60,FALSE
+S27_E_12,27,E,Migrating Jellyfish Whisperer,1,2,Blessing,blessing,4,s_candle,60,FALSE
 S27_E_21,27,E,Migrating Jellyfish Whisperer,2,1,Clothes,,0,free,0,TRUE
 S27_E_22,27,E,Migrating Jellyfish Whisperer,2,2,Emote 3,,24,s_candle,40,FALSE
 S27_E_23,27,E,Migrating Jellyfish Whisperer,2,3,Dye,dye_cyan,9,s_candle,40,FALSE
 S27_E_31,27,E,Migrating Jellyfish Whisperer,3,1,Emote 4,,0,free,0,TRUE
-S27_E_32,27,E,Migrating Jellyfish Whisperer,3,2,Blessing,,0,free,0,TRUE
+S27_E_32,27,E,Migrating Jellyfish Whisperer,3,2,Blessing,blessing,0,free,0,TRUE
 S27_E_33,27,E,Migrating Jellyfish Whisperer,3,3,Hair Acc,,36,s_candle,50,FALSE
 S27_E_34,27,E,Migrating Jellyfish Whisperer,3,4,Moment,,0,free,50,FALSE
 S27_E_41,27,E,Migrating Jellyfish Whisperer,4,1,Season Heart,s_heart,3,s_candle,0,TRUE
 S27_F_01,27,F,Migrating Manta Whisperer,0,1,Emote 1,,0,free,20,FALSE
-S27_F_02,27,F,Migrating Manta Whisperer,0,2,Blessing,,2,s_candle,20,FALSE
+S27_F_02,27,F,Migrating Manta Whisperer,0,2,Blessing,blessing,2,s_candle,20,FALSE
 S27_F_CO,27,F,Migrating Manta Whisperer,0,3,Companion,,0,free,0,FALSE
 S27_F_11,27,F,Migrating Manta Whisperer,1,1,Emote 2,,0,free,0,TRUE
 S27_F_12,27,F,Migrating Manta Whisperer,1,2,Hair,,23,s_candle,30,FALSE
-S27_F_13,27,F,Migrating Manta Whisperer,1,3,Blessing,,4,s_candle,30,FALSE
+S27_F_13,27,F,Migrating Manta Whisperer,1,3,Blessing,blessing,4,s_candle,30,FALSE
 S27_F_21,27,F,Migrating Manta Whisperer,2,1,Cape,,0,free,0,TRUE
 S27_F_22,27,F,Migrating Manta Whisperer,2,2,Emote 3,,24,s_candle,40,FALSE
-S27_F_23,27,F,Migrating Manta Whisperer,2,3,Blessing,,6,s_candle,40,FALSE
+S27_F_23,27,F,Migrating Manta Whisperer,2,3,Blessing,blessing,6,s_candle,40,FALSE
 S27_F_31,27,F,Migrating Manta Whisperer,3,1,Outfit,,0,free,0,TRUE
 S27_F_32,27,F,Migrating Manta Whisperer,3,2,Emote 4,,0,free,0,TRUE
 S27_F_33,27,F,Migrating Manta Whisperer,3,3,Dye,dye_white,12,s_candle,50,FALSE

@@ -19,20 +19,20 @@ S30_B_02,30,B,Artistic Memory,0,2,Small Prop,,12,s_candle,20,FALSE
 S30_B_CO,30,B,Artistic Memory,0,3,Companion,,0,free,0,FALSE
 S30_B_11,30,B,Artistic Memory,1,1,Emote 2,,0,free,0,TRUE
 S30_B_12,30,B,Artistic Memory,1,2,Hair Acc,,18,s_candle,30,FALSE
-S30_B_13,30,B,Artistic Memory,1,3,Blessing,,6,s_candle,30,FALSE
+S30_B_13,30,B,Artistic Memory,1,3,Blessing,blessing,6,s_candle,30,FALSE
 S30_B_21,30,B,Artistic Memory,2,1,Dye,dye_yellow,10,s_candle,0,TRUE
 S30_B_22,30,B,Artistic Memory,2,2,Emote 3,,22,s_candle,40,FALSE
 S30_B_23,30,B,Artistic Memory,2,3,Small Prop,,22,s_candle,40,FALSE
 S30_B_31,30,B,Artistic Memory,3,1,Emote 4,,0,free,0,TRUE
 S30_B_32,30,B,Artistic Memory,3,2,Cape,,0,free,0,TRUE
-S30_B_33,30,B,Artistic Memory,3,3,Blessing,,10,s_candle,100,FALSE
+S30_B_33,30,B,Artistic Memory,3,3,Blessing,blessing,10,s_candle,100,FALSE
 S30_B_41,30,B,Artistic Memory,4,1,Season Heart,s_heart,3,s_candle,0,TRUE
 S30_C_01,30,C,Dutch Memory,0,1,Emote 1,,0,free,20,FALSE
-S30_C_02,30,C,Dutch Memory,0,2,Blessing,,4,s_candle,20,FALSE
+S30_C_02,30,C,Dutch Memory,0,2,Blessing,blessing,4,s_candle,20,FALSE
 S30_C_CO,30,C,Dutch Memory,0,3,Companion,,0,free,0,FALSE
 S30_C_11,30,C,Dutch Memory,1,1,Emote 2,,0,free,0,TRUE
 S30_C_12,30,C,Dutch Memory,1,2,Small Prop,,18,s_candle,30,FALSE
-S30_C_13,30,C,Dutch Memory,1,3,Blessing,,6,s_candle,30,FALSE
+S30_C_13,30,C,Dutch Memory,1,3,Blessing,blessing,6,s_candle,30,FALSE
 S30_C_21,30,C,Dutch Memory,2,1,Hair,,0,free,0,TRUE
 S30_C_22,30,C,Dutch Memory,2,2,Emote 3,,22,s_candle,40,FALSE
 S30_C_23,30,C,Dutch Memory,2,3,Dye,dye_white,10,s_candle,40,FALSE
@@ -45,8 +45,8 @@ S30_D_02,30,D,Joyful Memory,0,2,Small Prop,,12,s_candle,20,FALSE
 S30_D_CO,30,D,Joyful Memory,0,3,Companion,,0,free,0,FALSE
 S30_D_11,30,D,Joyful Memory,1,1,Emote 2,,0,free,0,TRUE
 S30_D_12,30,D,Joyful Memory,1,2,Hair Acc,,0,free,0,TRUE
-S30_D_13,30,D,Joyful Memory,1,3,Blessing,,6,s_candle,60,FALSE
-S30_D_21,30,D,Joyful Memory,2,1,Blessing,,8,s_candle,0,TRUE
+S30_D_13,30,D,Joyful Memory,1,3,Blessing,blessing,6,s_candle,60,FALSE
+S30_D_21,30,D,Joyful Memory,2,1,Blessing,blessing,8,s_candle,0,TRUE
 S30_D_22,30,D,Joyful Memory,2,2,Emote 3,,22,s_candle,40,FALSE
 S30_D_23,30,D,Joyful Memory,2,3,Hair Acc,,22,s_candle,40,FALSE
 S30_D_31,30,D,Joyful Memory,3,1,Emote 4,,0,free,0,TRUE
@@ -54,14 +54,14 @@ S30_D_32,30,D,Joyful Memory,3,2,Cape,,26,s_candle,50,FALSE
 S30_D_33,30,D,Joyful Memory,3,3,Dye,dye_black,12,s_candle,50,FALSE
 S30_D_41,30,D,Joyful Memory,4,1,Season Heart,s_heart,3,s_candle,0,TRUE
 S30_E_01,30,E,Rustic Memory,0,1,Emote 1,,0,free,20,FALSE
-S30_E_02,30,E,Rustic Memory,0,2,Blessing,,4,s_candle,20,FALSE
+S30_E_02,30,E,Rustic Memory,0,2,Blessing,blessing,4,s_candle,20,FALSE
 S30_E_CO,30,E,Rustic Memory,0,3,Companion,,0,free,0,FALSE
 S30_E_11,30,E,Rustic Memory,1,1,Emote 2,,0,free,0,TRUE
 S30_E_12,30,E,Rustic Memory,1,2,Small Prop,,18,s_candle,30,FALSE
 S30_E_13,30,E,Rustic Memory,1,3,Dye,dye_red,8,s_candle,30,FALSE
 S30_E_21,30,E,Rustic Memory,2,1,Shoes,,0,free,0,TRUE
 S30_E_22,30,E,Rustic Memory,2,2,Emote 3,,22,s_candle,40,FALSE
-S30_E_23,30,E,Rustic Memory,2,3,Blessing,,8,s_candle,40,FALSE
+S30_E_23,30,E,Rustic Memory,2,3,Blessing,blessing,8,s_candle,40,FALSE
 S30_E_31,30,E,Rustic Memory,3,1,Emote 4,,0,free,0,TRUE
 S30_E_32,30,E,Rustic Memory,3,2,Cape,,0,free,0,TRUE
 S30_E_33,30,E,Rustic Memory,3,3,Hair Acc,,26,s_candle,100,FALSE

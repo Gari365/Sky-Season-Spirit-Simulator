@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>SKY: Seasonal Spirit Simulator</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='.9em' font-size='56'%3E%E2%9C%A8%3C/text%3E%3C/svg%3E">
     <meta id="serverSeasonRoute" data-season="<?= initialSeasonRef ?>">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -717,7 +718,7 @@
         })();
         const folder = seasonFolder;
         const assetBase = `${GITHUB_RAW_BASE}${folder}/season_icon`;
-        const candidates = [`${assetBase}.webp`, `${assetBase}.png`];
+        const candidates = [`${assetBase}.png`, `${assetBase}.webp`];
         let candidateIndex = 0;
 
         const tryNextCandidate = () => {
@@ -732,7 +733,10 @@
           const candidate = candidates[candidateIndex++];
           const probe = new Image();
           probe.onload = () => {
-            if (folder === seasonFolder) favicon.href = candidate;
+            if (folder === seasonFolder) {
+              favicon.type = candidate.endsWith('.png') ? 'image/png' : 'image/webp';
+              favicon.href = `${candidate}?season=${encodeURIComponent(folder)}`;
+            }
           };
           probe.onerror = tryNextCandidate;
           probe.src = candidate;
@@ -1628,6 +1632,7 @@
 
       function buildNodeHtml(item) {
         const isPassItem = item.is_pass_exclusive;
+        const hasItemName = String(item.item_name || '').trim().length > 0;
         const rawItemName = String(item.item_name || item.item_type || item.item_id || 'item').trim();
         const directAssetUrl = getDirectHttpsUrl(rawItemName);
         let itemName = rawItemName;
@@ -1656,7 +1661,7 @@
           `${GITHUB_RAW_BASE}Default/${nodeIconName}.png`
         ].filter((url, index, urls) => url !== seasonAsset && urls.indexOf(url) === index);
         const mutedFallbackIndexes = fallbackChain.reduce((indexes, url, index) => {
-          if (url === `${GITHUB_RAW_BASE}Default/${nodeIconName}.webp` || url === `${GITHUB_RAW_BASE}Default/${nodeIconName}.png`) {
+          if (!hasItemName && (url === `${GITHUB_RAW_BASE}Default/${nodeIconName}.webp` || url === `${GITHUB_RAW_BASE}Default/${nodeIconName}.png`)) {
             indexes.push(index);
           }
           return indexes;
