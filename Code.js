@@ -120,7 +120,7 @@
       if (rowSeasonId && rowSeasonId !== targetSeasonId) return;
 
       const itemType = valueAt(row, indexes.itemType, 'Item') || 'Item';
-      const itemName = valueAt(row, indexes.itemName, 'Item') || 'Item';
+      const itemName = valueAt(row, indexes.itemName);
       if (itemType.toLowerCase() === 'background') {
         const isHttpsUrl = /^https:\/\/\S+$/i.test(itemName);
         const isAssetName = /^[a-z0-9 _.-]+$/i.test(itemName) && !itemName.includes('..');

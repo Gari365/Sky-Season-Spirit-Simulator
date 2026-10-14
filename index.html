@@ -70,6 +70,10 @@
         background: #0f172a !important;
         filter: grayscale(0.7);
       }
+      .item-icon-unknown {
+        filter: grayscale(1);
+        opacity: 0.5;
+      }
       .preference-category-selected {
         box-shadow: 0 0 12px rgba(251, 191, 36, 0.3);
       }
@@ -1660,15 +1664,8 @@
           `${GITHUB_RAW_BASE}Default/${nodeIconName}.webp`,
           `${GITHUB_RAW_BASE}Default/${nodeIconName}.png`
         ].filter((url, index, urls) => url !== seasonAsset && urls.indexOf(url) === index);
-        const mutedFallbackIndexes = fallbackChain.reduce((indexes, url, index) => {
-          if (!hasItemName && (url === `${GITHUB_RAW_BASE}Default/${nodeIconName}.webp` || url === `${GITHUB_RAW_BASE}Default/${nodeIconName}.png`)) {
-            indexes.push(index);
-          }
-          return indexes;
-        }, []);
         const safeSeasonAsset = escapeHtmlAttribute(seasonAsset);
         const safeFallbackChain = escapeHtmlAttribute(JSON.stringify(fallbackChain));
-        const safeMutedFallbackIndexes = escapeHtmlAttribute(JSON.stringify(mutedFallbackIndexes));
         const fallbackEmoji = TYPE_EMOJIS[item.item_type] || TYPE_EMOJIS[item.item_name] || '✨';
         const emoteLevel = /^Emote\s+([1-4])$/i.exec(String(item.item_type || ''))?.[1];
 
@@ -1699,10 +1696,8 @@
             <div class="w-9 h-9 flex items-center justify-center pointer-events-none overflow-hidden relative">
               <img src="${safeSeasonAsset}" decoding="async"
                 alt="${item.item_type}"
-                class="w-full h-full object-contain"
+                class="w-full h-full object-contain ${hasItemName ? '' : 'item-icon-unknown'}"
                 data-fallback-chain="${safeFallbackChain}"
-                data-muted-fallback-indexes="${safeMutedFallbackIndexes}"
-                onload="handleItemImgLoad(this)"
                 onerror="handleItemImgError(this, '', '${fallbackEmoji}')"
               />
               <div class="text-xl leading-none w-full h-full items-center justify-center hidden z-0">
@@ -2003,10 +1998,6 @@
           : (fallbackUrl ? [fallbackUrl] : (img.dataset.fallbackSrc ? [img.dataset.fallbackSrc] : []));
         const fallbackIndex = Number(img.dataset.fallbackIndex || 0);
         if (fallbackIndex < fallbackChain.length) {
-          const mutedFallbackIndexes = JSON.parse(img.dataset.mutedFallbackIndexes || '[]');
-          img.dataset.mutedFallbackActive = String(mutedFallbackIndexes.includes(fallbackIndex));
-          img.style.filter = '';
-          img.style.opacity = '';
           img.dataset.fallbackIndex = String(fallbackIndex + 1);
           img.onerror = () => handleItemImgError(img, '', fallbackEmoji);
           img.src = fallbackChain[fallbackIndex];
@@ -2018,12 +2009,6 @@
             img.nextElementSibling.style.display = 'flex';
           }
         }
-      }
-
-      function handleItemImgLoad(img) {
-        const isGenericFallback = img.dataset.mutedFallbackActive === 'true';
-        img.style.filter = isGenericFallback ? 'grayscale(1)' : '';
-        img.style.opacity = isGenericFallback ? '0.65' : '';
       }
 
       function handleBackgroundImgError(img) {
