@@ -539,6 +539,7 @@
         currentSeasonId = AppData?.season?.id || currentSeasonId;
         seasonFolder = AppData?.season?.folder || seasonFolder;
         updateSeasonBackground();
+        updateSeasonFavicon();
         mountStaticCurrencyIcons();
 
         const seasonPlan = getSavedSeasonPlan(currentSeasonId);
@@ -705,6 +706,39 @@
         backgroundImage.onerror = () => handleBackgroundImgError(backgroundImage);
         backgroundImage.style.display = 'block';
         backgroundImage.src = backgroundWebp;
+      }
+
+      function updateSeasonFavicon() {
+        const favicon = document.querySelector('link[rel="icon"]') || (() => {
+          const link = document.createElement('link');
+          link.rel = 'icon';
+          document.head.append(link);
+          return link;
+        })();
+        const folder = seasonFolder;
+        const assetBase = `${GITHUB_RAW_BASE}${folder}/season_icon`;
+        const candidates = [`${assetBase}.webp`, `${assetBase}.png`];
+        let candidateIndex = 0;
+
+        const tryNextCandidate = () => {
+          if (folder !== seasonFolder) return;
+          if (candidateIndex >= candidates.length) {
+            favicon.href = 'data:image/svg+xml,' + encodeURIComponent(
+              '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><text y=".9em" font-size="56">✨</text></svg>'
+            );
+            return;
+          }
+
+          const candidate = candidates[candidateIndex++];
+          const probe = new Image();
+          probe.onload = () => {
+            if (folder === seasonFolder) favicon.href = candidate;
+          };
+          probe.onerror = tryNextCandidate;
+          probe.src = candidate;
+        };
+
+        tryNextCandidate();
       }
 
       function getSeasonTimeDetails(startIso, endIso) {
