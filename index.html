@@ -849,6 +849,7 @@
         const totals = {};
         items.forEach(item => {
           if (!isIncluded(item)) return;
+          if (String(item.currency || '').trim().toLowerCase() === 'tba') return;
           const cost = (item.is_pass_exclusive && hasPass && item.price === 0) ? 0 : Number(item.price) || 0;
           if (cost <= 0) return;
           const currency = getCurrencyDefinition(item);
@@ -908,6 +909,17 @@
         const icon = container.querySelector('[data-price-icon]');
         const fallback = container.querySelector('[data-price-fallback]');
         const amount = container.querySelector('[data-price-amount]');
+        if (String(item.currency || '').trim().toLowerCase() === 'tba') {
+          container.style.display = 'flex';
+          icon.style.display = 'none';
+          fallback.style.display = 'none';
+          amount.classList.add('text-[10px]');
+          amount.classList.remove('text-[14px]');
+          amount.textContent = '(?)';
+          return;
+        }
+        amount.classList.add('text-[14px]');
+        amount.classList.remove('text-[10px]');
         if (cost <= 0) {
           container.style.display = 'none';
           icon.style.display = 'none';
@@ -1705,7 +1717,7 @@
               </div>
             </div>
 
-            <div id="cost-${item.item_id}" class="flex items-center justify-center space-x-0.5 pointer-events-none mt-0.5 h-3 min-w-[28px]" style="display:${Number(item.price) > 0 ? 'flex' : 'none'}">
+            <div id="cost-${item.item_id}" class="flex items-center justify-center space-x-0.5 pointer-events-none mt-0.5 h-3 min-w-[28px]" style="display:${Number(item.price) > 0 || String(item.currency || '').trim().toLowerCase() === 'tba' ? 'flex' : 'none'}">
               <img data-price-icon alt="" class="hidden w-3 h-3 shrink-0 object-contain" />
               <span data-price-fallback class="hidden text-[10px] leading-none" aria-hidden="true"></span>
               <span data-price-amount class="text-[14px] font-mono text-slate-300 leading-none">&nbsp;</span>
