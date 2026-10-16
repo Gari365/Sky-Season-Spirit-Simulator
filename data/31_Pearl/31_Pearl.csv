@@ -6,7 +6,7 @@ S31_A_11,31,A,Angler's Lantern,1,1,Large Prop,Angler_s Lantern Large Prop,1,s_he
 S31_A_12,31,A,Angler's Lantern,1,2,Heart,heart,0,free,0,FALSE
 S31_A_21,31,A,Angler's Lantern,2,1,Cape,Angler_s Lantern Cape Colored,2,s_heart,0,TRUE
 S31_A_22,31,A,Angler's Lantern,2,2,Heart,heart,0,free,0,FALSE
-S31_A_31,31,A,Angler's Lantern,3,1,Small Prop,Angler_s Lantern Small Prop,999,s_candle,0,FALSE
+S31_A_31,31,A,Angler's Lantern,3,1,Small Prop,Angler_s Lantern Small Prop,0,candle,0,FALSE
 S31_B_CO,31,B,Wrestling Sailor,0,1,Companion,companion,0,free,0,FALSE
 S31_B_02,31,B,Wrestling Sailor,0,2,Emote 1,S31_B,0,free,20,FALSE
 S31_B_03,31,B,Wrestling Sailor,0,3,Blessing,blessing,4,s_candle,20,FALSE
