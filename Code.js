@@ -129,6 +129,7 @@
       }
 
       const price = numberAt(row, indexes.price, 0);
+      const rawCurrency = valueAt(row, indexes.currency);
       items.push({
         item_id: valueAt(row, indexes.itemId, `ITEM_${rowIndex + 2}`) || `ITEM_${rowIndex + 2}`,
         season_id: targetSeasonId,
@@ -139,7 +140,9 @@
         item_type: itemType,
         item_name: itemName,
         price,
-        currency: price === 0 ? 'free' : (valueAt(row, indexes.currency) || defaultCurrencies[itemType] || 's_candle'),
+        currency: rawCurrency.toLowerCase() === 'tba'
+          ? 'tba'
+          : (price === 0 ? 'free' : (rawCurrency || defaultCurrencies[itemType] || 's_candle')),
         points: numberAt(row, indexes.points, 0),
         is_pass_exclusive: parseBoolean(valueAt(row, indexes.pass))
       });
