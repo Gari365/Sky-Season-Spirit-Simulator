@@ -32,20 +32,20 @@ S31_C_31,31,C,Showy Merchant,3,1,Emote 4,S31_C,0,free,0,TRUE
 S31_C_32,31,C,Showy Merchant,3,2,Outfit,Showy Merchant Outfit,32,s_candle,50,FALSE
 S31_C_33,31,C,Showy Merchant,3,3,Moment,moment,0,free,50,FALSE
 S31_C_41,31,C,Showy Merchant,4,1,Season Heart,s_heart_white,3,s_candle,0,TRUE
-S31_D_CO,31,D,Hesitant Angler,0,1,Companion,companion,0,free,0,FALSE
-S31_D_02,31,D,Hesitant Angler,0,2,Emote 1,S31_D,0,free,20,FALSE
-S31_D_03,31,D,Hesitant Angler,0,3,Blessing,blessing,4,s_candle,20,FALSE
-S31_D_11,31,D,Hesitant Angler,1,1,Emote 2,S31_D,0,free,0,TRUE
-S31_D_12,31,D,Hesitant Angler,1,2,Music,music,18,s_candle,30,FALSE
-S31_D_13,31,D,Hesitant Angler,1,3,Blessing,blessing,7,s_candle,30,FALSE
-S31_D_21,31,D,Hesitant Angler,2,1,Mask,Hesitant Angler Mask,0,free,0,TRUE
-S31_D_22,31,D,Hesitant Angler,2,2,Emote 3,S31_D,28,s_candle,40,FALSE
-S31_D_23,31,D,Hesitant Angler,2,3,Dye,dye_white,8,s_candle,40,FALSE
-S31_D_31,31,D,Hesitant Angler,3,1,Emote 4,S31_D,0,free,0,TRUE
-S31_D_32,31,D,Hesitant Angler,3,2,Head Acc,Hesitant Angler Hair Accessory,0,free,0,TRUE
-S31_D_33,31,D,Hesitant Angler,3,3,Clothes,Hesitant Angler Outfit,32,s_candle,50,FALSE
-S31_D_34,31,D,Hesitant Angler,3,4,Moment,moment,0,free,50,FALSE
-S31_D_41,31,D,Hesitant Angler,4,1,Season Heart,s_heart_white,3,s_candle,0,TRUE
+S31_D_CO,31,D,Old Angler,0,1,Companion,companion,0,free,0,FALSE
+S31_D_02,31,D,Old Angler,0,2,Emote 1,S31_D,0,free,20,FALSE
+S31_D_03,31,D,Old Angler,0,3,Blessing,blessing,4,s_candle,20,FALSE
+S31_D_11,31,D,Old Angler,1,1,Emote 2,S31_D,0,free,0,TRUE
+S31_D_12,31,D,Old Angler,1,2,Music,music,18,s_candle,30,FALSE
+S31_D_13,31,D,Old Angler,1,3,Blessing,blessing,7,s_candle,30,FALSE
+S31_D_21,31,D,Old Angler,2,1,Mask,Old Angler Mask,0,free,0,TRUE
+S31_D_22,31,D,Old Angler,2,2,Emote 3,S31_D,28,s_candle,40,FALSE
+S31_D_23,31,D,Old Angler,2,3,Dye,dye_white,8,s_candle,40,FALSE
+S31_D_31,31,D,Old Angler,3,1,Emote 4,S31_D,0,free,0,TRUE
+S31_D_32,31,D,Old Angler,3,2,Head Acc,Old Angler Hair Accessory,0,free,0,TRUE
+S31_D_33,31,D,Old Angler,3,3,Clothes,Old Angler Outfit,32,s_candle,50,FALSE
+S31_D_34,31,D,Old Angler,3,4,Moment,moment,0,free,50,FALSE
+S31_D_41,31,D,Old Angler,4,1,Season Heart,s_heart_white,3,s_candle,0,TRUE
 S31_E_CO,31,E,Cuddly Rolling Child,0,1,Companion,companion,0,free,0,FALSE
 S31_E_02,31,E,Cuddly Rolling Child,0,2,Emote 1,S31_E,0,free,20,FALSE
 S31_E_03,31,E,Cuddly Rolling Child,0,3,Blessing,blessing,4,s_candle,20,FALSE
